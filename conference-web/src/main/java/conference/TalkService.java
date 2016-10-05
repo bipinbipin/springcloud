@@ -18,7 +18,7 @@ public class TalkService {
     private Logger logger = LoggerFactory.getLogger(getClass());
     private volatile Talk[] talks = new Talk[0];
 
-    @Autowired
+    @Autowired  // @LoadBalanced is used to tell spring cloud to use Ribbon.
     public TalkService(@LoadBalanced RestTemplate restTemplate, ReviewService reviewService) {
         this.restTemplate = restTemplate;
         this.reviewService = reviewService;

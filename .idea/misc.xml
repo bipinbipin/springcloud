@@ -4,6 +4,7 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/eureka-server" />
     <file type="web" url="file://$PROJECT_DIR$/talk-service" />
   </component>
   <component name="IdProvider" IDEtalkID="2721900806EEFB3406504C05A155D237" />

@@ -35,7 +35,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="conference-web" target="1.8" />
       <module name="eureka-server" target="1.8" />
-      <module name="hystrix-dashboard" target="1.5" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="review-service" target="1.8" />
       <module name="springcloud" target="1.8" />
       <module name="talk-service" target="1.8" />
